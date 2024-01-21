@@ -1,0 +1,69 @@
+.newsletter {
+  display: flex;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 150px 0;
+}
+
+.newsletter-text {
+  padding-left: 25px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#email {
+  color: #ffffff;
+  background-color: transparent;
+  padding: 15px 50px;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid #26ffdf;
+}
+
+.footer-content {
+  background-color: #161616;
+  color: #ffffff4d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-navigation-section {
+  padding: 10px 20px;
+}
+
+.footer-navigation-section span {
+  padding: 10px;
+}
+
+.footer-navigation-section span:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter-text {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer-navigation-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

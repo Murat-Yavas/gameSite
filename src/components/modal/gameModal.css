@@ -1,0 +1,25 @@
+#game-modal a {
+  text-decoration: none;
+  color: #26ffdf;
+}
+
+#game-modal a:hover {
+  color: #ffffff;
+}
+
+.modal-content {
+  background-color: #626666 !important;
+}
+
+.modal-body {
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.modal-item {
+  margin: 10px 20px;
+}
+
+.game-title {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,65 @@
+.header {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  width: 100%;
+  max-width: 100vw;
+  padding: 0 10px;
+}
+
+.gameArena-logo {
+  color: #26ffdf;
+  font-size: 1.25rem;
+}
+
+.gameArena-logo img {
+  margin-right: 10px;
+}
+
+.shelf-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.shelf-sub-nav a:hover {
+  cursor: pointer;
+  color: #26ffdf !important;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  background-color: #626666;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: -1px 2px 5px 0px rgba(179, 179, 179, 1);
+  -moz-box-shadow: -1px 2px 5px 0px rgba(179, 179, 179, 1);
+  box-shadow: -1px 2px 5px 0px rgba(179, 179, 179, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .shelf-nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+}
