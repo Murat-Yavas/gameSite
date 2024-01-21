@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
-import GameSection from "./components/gameSection/gameSection";
+import GameSection from "./components/gameSection/GameSection.jsx";
 import "./App.css";
 
 import { useSelector } from "react-redux";
