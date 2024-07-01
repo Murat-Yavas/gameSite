@@ -1,7 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import "./gameModal.css";
-import a from "../../assets/image/1.png";
 
 import { useSelector, useDispatch } from "react-redux";
 import { modalActions } from "../../redux/modal-slice";
