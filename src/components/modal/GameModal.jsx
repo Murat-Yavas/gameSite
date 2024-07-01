@@ -24,7 +24,7 @@ const GameModal = () => {
       <Modal.Body>
         {modalItems?.map((game) => (
           <div className="d-flex flex-column modal-item" key={game.id}>
-            <img src={a} />
+            <img src={game.thumbnail} />
             <div className="game-desc">
               <p className="game-title">
                 <b>
