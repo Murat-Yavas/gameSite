@@ -1,6 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import "./gameModal.css";
+import a from "../../assets/image/1.png";
 
 import { useSelector, useDispatch } from "react-redux";
 import { modalActions } from "../../redux/modal-slice";
@@ -23,7 +24,7 @@ const GameModal = () => {
       <Modal.Body>
         {modalItems?.map((game) => (
           <div className="d-flex flex-column modal-item" key={game.id}>
-            <img src={game.thumbnail} />
+            <img src={a} />
             <div className="game-desc">
               <p className="game-title">
                 <b>
